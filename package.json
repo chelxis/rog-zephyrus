@@ -1,0 +1,16 @@
+{
+  "name": "rog-zephyrus",
+  "version": "1.0.0",
+  "description": "Ajudei minha 'namorada' a comprar um Rog Zephyrus de um dev, batemos um papo sobre carreira, me senti um idiota, tomei vergonha na cara e decidi iniciar o https://curso.dev direito",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
