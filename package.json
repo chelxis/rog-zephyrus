@@ -4,7 +4,9 @@
   "description": "Ajudei minha 'namorada' a comprar um Rog Zephyrus de um dev, batemos um papo sobre carreira, me senti um idiota, tomei vergonha na cara e decidi iniciar o https://curso.dev direito",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
